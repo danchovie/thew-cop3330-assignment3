@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+App <|- parseFunctions
+App <|-- ArrayList
+parseFunctions <|-- ArrayList
+App : main()
+App : ArrayList<String> list
+parseFunctions : readFile()
+parseFunctions : printList(ArrayList<String> list)
+
+class ArrayList{
+    String s;
+}
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+App <|- wordFunctions
+
+App : main()
+
+wordFunctions : parseFile()
+wordFunctions : freq1(String[])
+wordFunctions : printFreq(String[], int[])
+
+
+
+@enduml

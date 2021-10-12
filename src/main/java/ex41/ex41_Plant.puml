@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+App : main()
+App : ArrayList list
+App <|- sortFunctions
+App <|-- ArrayList
+sortFunctions <|-- ArrayList
+
+sortFunctions : getNames()
+sortFunctions : sortList(ArrayList list)
+sortFunctions : printList(ArrayList list)
+
+class ArrayList{
+    String name;
+    int size;
+}
+@enduml

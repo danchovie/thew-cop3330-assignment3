@@ -1,0 +1,9 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+App<|-siteFunctions
+App : main()
+siteFunctions : getInput()
+siteFunctions : genSite(String[] inputs)
+
+@enduml

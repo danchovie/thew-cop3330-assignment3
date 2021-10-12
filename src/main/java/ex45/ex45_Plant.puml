@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+App <|- utilizeFunctions
+App : main()
+main --|> App
+main : String s
+main : String input
+
+
+utilizeFunctions : parseFile()
+utilizeFunctions : returnS(String s1)
+utilizeFunctions : createFile(String s1)
+
+@enduml
